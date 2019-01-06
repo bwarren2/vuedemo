@@ -17,4 +17,4 @@ npm run build
 
 ## What we have done
 
-When we start the app, we write a node for the current year to firebase.
+We can create/read/update/delete topics from firebase.
