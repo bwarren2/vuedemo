@@ -36,21 +36,28 @@
     name: 'app',
     data () {
       return {
-        topics: [],
         newTopic: "",
         editingTopic: null
       }
     },
+    firebase: {
+      topics:{
+        source: topicsRef,
+        cancelCallback (err) {
+          console.error(err)
+        }
+      }
+    },
     methods: {
       createTopic(){
-        topicsRef.push({
+        this.$firebaseRefs.topics.push({
           user: 'ben',
           title: this.newTopic
         })
         this.newTopic = ""
       },
       deleteTopic(topic){
-        topicsRef.child(topic.id).remove()
+        this.$firebaseRefs.topics.child(topic['.key']).remove()
       },
       editTopic(topic){
         this.editingTopic = topic
@@ -61,24 +68,10 @@
         this.newTopic = ""
       },
       updateTopic(topic){
-        topicsRef.child(this.editingTopic.id).update({title: this.newTopic})
+        this.$firebaseRefs.topics.child(this.editingTopic['.key']).update({title: this.newTopic})
         this.newTopic = ""
         this.editingTopic = null
       }
-    },
-    created(){
-      topicsRef.on('child_added', (snapshot) => {
-        this.topics.push({...snapshot.val(), id: snapshot.key})
-      })
-      topicsRef.on('child_removed', (snapshot) => {
-        const deletedTopic = this.topics.find(topic => topic.id == snapshot.key)
-        const id = this.topics.indexOf(deletedTopic)
-        this.topics.splice(id, 1)
-      }),
-      topicsRef.on('child_changed', (snapshot) => {
-        const changedTopic = this.topics.find(topic => topic.id == snapshot.key)
-        changedTopic.title = snapshot.val().title
-      })
     }
   }
 </script>
