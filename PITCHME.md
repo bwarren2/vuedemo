@@ -18,6 +18,18 @@
 
 ---
 
+## Suite of tools, you say?
+
+* Realtime Database
+* Firestore (even better RT DB, in Beta)
+* Cloud Functions (Think Lambdas)
+* Storage (think S3)
+* Hosting
+* Auth
+* ML Kit
+
+---
+
 ## Why Firebase (the db)
 
 Realtime Database makes it trivial to sync your app state to a database, **and your database across clients**.
@@ -37,3 +49,16 @@ No networking code to write, no exceptions to handle; that's Google's job.
 ## Pricing
 
 ![Foo](img/plans.png)
+
+---
+
+## Let's do some things!
+
+Step 1: start a project in the dash.
+
+---
+
+## Make a Project
+
+![Foo](img/project.png)
+
