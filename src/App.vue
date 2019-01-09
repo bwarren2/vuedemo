@@ -34,15 +34,6 @@
   import {db} from './firebase.js'
   let topicsRef = db.ref('topics')
   let testRef = db.ref('test')
-  testRef.child('test').set({
-    name: 'ben'
-  })
-  testRef.child('test').child('testagain').set({
-    name: 'ben2'
-  })
-  testRef.child('test').child('testagain').push({
-    name: 'ben3'
-  })
   export default {
     name: 'app',
     data () {
