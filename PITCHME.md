@@ -71,3 +71,15 @@ Step 1: start a project in the dash.
 Don't think too hard about the bad security we just set up, we'll come back to it.
 
 ---
+
+
+## Let's do some things!
+
+Step 2: start a basic vue project
+
+
+---?gist=bwarren2/41b0006096edec61ffe8f8ee0856e4c3&lang=vue&title=GIST: Starter Vue
+
+@[22-31](Logic)
+@[1-20](Templating)
+@[33-60](Style)
