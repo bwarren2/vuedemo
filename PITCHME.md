@@ -76,7 +76,7 @@ Don't think too hard about the bad security we just set up, we'll come back to i
 
 Step 2: Start a basic vue project
 
-We'll use the webpack-simple template for basic webpack config with vue-loader.  (This gives us single-file components.)
+We'll use the webpack-simple template for basic webpack config with live reloading and vue-loader.  (This gives us single-file components.)
 
 ---?image=img/init.png&size=auto 85%
 
@@ -108,6 +108,8 @@ Each of these can be a `ref`:
 * ref.push = make a new key and assign these attributes to that key as a child of ref.
 
 (Keys are timestamp-related, so ordering is maintained.)
+
+---
 
 ## Pop quiz: what will the db look like after these actions?
 
