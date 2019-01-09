@@ -74,6 +74,12 @@ Don't think too hard about the bad security we just set up, we'll come back to i
 
 ## Let's do some things!
 
-Step 2: start a basic vue project
+Step 2: Start a basic vue project
 
----?image=img/init.png&size=auto 70%
+We'll use the webpack-simple template for basic webpack config with vue-loader.  (This gives us single-file components.)
+
+---?image=img/init.png&size=auto 85%
+
+---
+
+## Now the dangerous part: live code.
