@@ -125,4 +125,4 @@ Each of these can be a `ref`:
   })
 ```
 
----?image=img/answer.png&size=auto 75%
+---?image=img/answer2.png&size=auto 75%
