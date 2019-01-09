@@ -1,27 +1,51 @@
 <template>
   <div id="app">
     <div class="fixed">
-    <div v-if="this.editingTopic == null" >
-    <form @submit.prevent="createTopic">
-      <div class="form-group">
-        <label>New Topic</label>
-        <input type="text" v-model="newTopic">
+      <div v-if="this.editingTopic == null" >
+        <v-form @submit.prevent="createTopic">
+          <v-container>
+            <v-layout align-center justify-center>
+              <v-flex md4>
+                <v-text-field v-model="newTopic" label='New Topic' required></v-text-field>
+              </v-flex>
+              <v-flex md4>
+                <v-btn large color="blue" @click="createTopic">Create Topic</v-btn>
+              </v-flex>
+
+            </v-layout>
+          </v-container>
+        </v-form>
       </div>
-      <button>Send</button>
-    </form>
-    </div>
     </div>
     <div class="topic-deck">
     <div v-for="topic in topics" class="topic">
       <div v-if="editingTopic === topic">
-          <input type="text" v-model="newTopic">
-          <button @click="updateTopic(topic)">Update</button>
-          <button @click="cancelUpdate(topic)">Cancel</button>
+          <v-form @submit.prevent="updateTopic(topic)">
+            <v-container>
+              <v-layout align-center justify-center >
+                <v-flex md2>
+                  <v-text-field
+                  v-model="newTopic"
+                  label='New Topic'
+                  required
+                  :rules=topicRules
+                  ></v-text-field>
+                </v-flex>
+                <v-flex md2>
+                  <v-btn large color="blue" @click="updateTopic(topic)">Update</v-btn>
+                </v-flex>
+                <v-flex md2>
+                  <v-btn large color="red" @click="cancelUpdate(topic)">Cancel Update</v-btn>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-form>
+
         </div>
         <div v-else>
           <h1>{{topic.title}}</h1>
-          <button @click="deleteTopic(topic)">Delete</button>
-          <button @click="editTopic(topic)">Edit</button>
+          <v-btn large color="primary" @click="editTopic(topic)">Edit</v-btn>
+          <v-btn large color="red" @click="deleteTopic(topic)">Delete</v-btn>
         </div>
       </div>
     </div>
@@ -39,7 +63,12 @@
     data () {
       return {
         newTopic: "",
-        editingTopic: null
+        editingTopic: null,
+        topicRules: [
+          v => !!v || 'You need to enter something',
+          v => v.length <= 40 || 'Please enter something shorter than 40 characters'
+        ],
+
       }
     },
     firebase: {
