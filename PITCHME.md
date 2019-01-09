@@ -11,7 +11,7 @@
 
 ## What is Firebase?
 
-"Firebase" is actually use to mean two things:
+"Firebase" is actually used to mean two things:
 
 * a suite of tools owned by Google, including auth, storage, hosting, etc
 * their Realtime Database product in particular.
@@ -56,7 +56,6 @@ No networking code to write, no exceptions to handle; that's Google's job.
 
 Step 1: start a project in the dash.
 
----
 
 ---?image=img/project.png&size=auto 70%
 
@@ -100,12 +99,13 @@ Each of these can be a `ref`:
 
 ---
 
-## Paint with ~~all the colors of the wind~~ these colors:
+#### Paint with ~~all the colors of the wind~~ these colors:
 
 * ref.set = assign this object to this ref. (Like PUT)
 * ref.update = overwrite these attributes at this ref. (Like PATCH)
 * ref.remove = delete this ref
 * ref.push = make a new key and assign these attributes to that key as a child of ref.
+* ref.transaction = run a function that ensures transactionalization, (like for INCR)
 
 (Keys are timestamp-related, so ordering is maintained.)
 
@@ -125,4 +125,4 @@ Each of these can be a `ref`:
   })
 ```
 
----?image=img/answer.png&size=auto 100%
+---?image=img/answer.png&size=auto 50%
