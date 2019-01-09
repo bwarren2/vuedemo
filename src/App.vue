@@ -1,10 +1,27 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
-    <v-btn to="/topics">Topics</v-btn>
+  <v-app>
+    <v-navigation-drawer app>
+      <v-toolbar flat>
+        <v-list>
+          <v-list-tile>
+            <v-list-tile-title class="title">
+              Firebase Demo
+            </v-list-tile-title>
+          </v-list-tile>
+          <v-list-tile to='empty'>Nothing</v-list-tile>
+          <v-list-tile to='topics'>Topics</v-list-tile>
 
+        </v-list>
+      </v-toolbar>
+    </v-navigation-drawer>
+    <v-content>
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
+    </v-content>
+    <v-footer app></v-footer>
+  </v-app>
 
-  </div>
 </template>
 
 <script>
