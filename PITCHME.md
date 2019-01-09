@@ -60,5 +60,5 @@ Step 1: start a project in the dash.
 
 ## Make a Project
 
-![Foo](img/project.png)
+---?image=img/project.png&size=auto 50%&position=bottom&color=#CCDAE7
 
