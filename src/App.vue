@@ -10,13 +10,15 @@
           </v-list-tile>
           <v-list-tile to='empty'>Nothing</v-list-tile>
           <v-list-tile to='topics'>Topics</v-list-tile>
-
         </v-list>
       </v-toolbar>
     </v-navigation-drawer>
     <v-content>
       <v-container fluid>
+
+        <!-- This is the important part -->
         <router-view></router-view>
+
       </v-container>
     </v-content>
     <v-footer app></v-footer>
