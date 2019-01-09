@@ -100,7 +100,7 @@ Each of these can be a `ref`:
 
 ---
 
-## Paint with ~all the colors of the wind~ these colors:
+## Paint with ~~all the colors of the wind~~ these colors:
 
 * ref.set = assign this object to this ref. (Like PUT)
 * ref.update = overwrite these attributes at this ref. (Like PATCH)
