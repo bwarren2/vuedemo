@@ -80,6 +80,6 @@ Step 2: start a basic vue project
 
 ---?gist=bwarren2/41b0006096edec61ffe8f8ee0856e4c3&lang=vue&title=GIST: Starter Vue
 
-@[22-31](Logic)
-@[1-20](Templating)
-@[33-60](Style)
+@[8-17](Logic)
+@[1-6](Templating)
+@[19-28](Style)
