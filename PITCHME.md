@@ -61,3 +61,13 @@ Step 1: start a project in the dash.
 ---?image=img/project.png&size=auto 70%
 
 ---?image=img/rtdb.png&size=auto 70%
+
+---?image=img/config.png&size=auto 70%
+
+---?image=img/rules.png&size=auto 70%
+
+---
+
+Don't think too hard about the bad security we just set up, we'll come back to it.
+
+---
