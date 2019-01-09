@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div v-if="this.editingTopic == null">
+    <div class="fixed">
+    <div v-if="this.editingTopic == null" >
     <form @submit.prevent="createTopic">
       <div class="form-group">
         <label>New Topic</label>
@@ -9,9 +10,10 @@
       <button>Send</button>
     </form>
     </div>
-    <div v-for="topic in topics" class="topic-deck">
-      <div class="topic">
-        <div v-if="editingTopic === topic">
+    </div>
+    <div class="topic-deck">
+    <div v-for="topic in topics" class="topic">
+      <div v-if="editingTopic === topic">
           <input type="text" v-model="newTopic">
           <button @click="updateTopic(topic)">Update</button>
           <button @click="cancelUpdate(topic)">Cancel</button>
@@ -31,7 +33,16 @@
 
   import {db} from './firebase.js'
   let topicsRef = db.ref('topics')
-
+  let testRef = db.ref('test')
+  testRef.child('test').set({
+    name: 'ben'
+  })
+  testRef.child('test').child('testagain').set({
+    name: 'ben2'
+  })
+  testRef.child('test').child('testagain').push({
+    name: 'ben3'
+  })
   export default {
     name: 'app',
     data () {
@@ -102,5 +113,12 @@ li {
 
 a {
   color: #42b983;
+}
+div.fixed {
+  height: 100px;
+}
+div.topic {
+  height: 100px;
+  margin:20px;
 }
 </style>

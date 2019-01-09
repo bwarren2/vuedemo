@@ -21,7 +21,7 @@
 ## Suite of tools, you say?
 
 * Realtime Database
-* Firestore (even better RT DB, in Beta)
+* Firestore (even better RT DB, in Beta, we'll talk later)
 * Cloud Functions (Think Lambdas)
 * Storage (think S3)
 * Hosting
@@ -83,3 +83,43 @@ We'll use the webpack-simple template for basic webpack config with vue-loader. 
 ---
 
 ## Now the dangerous part: live code.
+
+---
+
+## The Giving Tree, aka NoSQL modeling
+
+Everything is exactly one big JSON tree
+
+It's `ref`s, `child`s, `key`s and `value`s all the way down (up to 32 levels deep)
+
+Each of these can be a `ref`:
+
+* db.ref("blog");
+* db.ref("blog/posts");
+* db.ref("blog/posts/fiuhuiphagiuhfg");
+
+---
+
+## Paint with ~all the colors of the wind~ these colors:
+
+* ref.set = assign this object to this ref. (Like PUT)
+* ref.update = overwrite these attributes at this ref. (Like PATCH)
+* ref.remove = delete this ref
+* ref.push = make a new key and assign these attributes to that key as a child of ref.
+
+(Keys are timestamp-related, so ordering is maintained.)
+
+## Pop quiz: what will the db look like after these actions?
+
+```vue
+  testRef.child('test').set({
+    name: 'ben'
+  })
+  testRef.child('test').child('testagain').set({
+    name: 'ben2'
+  })
+  testRef.child('test').child('testagain').push({
+    name: 'ben3'
+  })
+```
+---
