@@ -122,4 +122,5 @@ Each of these can be a `ref`:
     name: 'ben3'
   })
 ```
----
+
+---?image=img/answer.png&size=auto 100%
