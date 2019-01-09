@@ -72,14 +72,8 @@ Don't think too hard about the bad security we just set up, we'll come back to i
 
 ---
 
-
 ## Let's do some things!
 
 Step 2: start a basic vue project
 
-
----?gist=bwarren2/41b0006096edec61ffe8f8ee0856e4c3&lang=vue&title=GIST: Starter Vue
-
-@[8-17](Logic)
-@[1-6](Templating)
-@[19-28](Style)
+---?image=img/init.png&size=auto 70%
