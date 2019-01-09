@@ -60,5 +60,5 @@ Step 1: start a project in the dash.
 
 ## Make a Project
 
----?image=img/project.png&size=auto 50%
+---?image=img/project.png&size=auto 70%
 
