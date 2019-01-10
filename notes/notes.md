@@ -12,16 +12,28 @@ git checkout basic-firebase
     We are writing very simple data to firebase here.
     (Show firebase console)
 
+What we are going to do here:
+    Make a local array.
+    Make a form to make topics and push them into the array
+
 git checkout topics-locally
 
     (Show app.vue)
     We have a form to create topics, and push them to a local array
     (Show this in app)
 
+What we are going to do here:
+    Write/delete to firebase
+    Sync the list of topics with firebase on page load
+
 git checkout firebase-write-delete
 
     We write to firebase and can delete, from db, but that isn't sync to local
     (Show this in app vs database)
+
+What we are going to do here:
+    CRUDify everything
+    Sync the array all the time
 
 git checkout crud-firebase
 
@@ -30,6 +42,11 @@ git checkout crud-firebase
 
     (Show app.vue)
     But look at all this code.  Way too much!  There has to be a different way.
+
+What we are going to do here:
+    Remove a bunch of boilerplate
+
+Cut back to slides for NoSQL modeling (2 slides)
 
 git checkout vuefire
 
@@ -68,3 +85,25 @@ git checkout jumbotron
     We've added a CTA!
 
 Show https://vuedemo-75f01.firebaseapp.com/#/
+
+
+Demo deploy
+
+    (Change text)
+    `npm run build`
+    `firebase deploy`
+
+Sizing:
+
+    Firebase is about 100KB gzipped
+    Vuetify is also, though we are not doing a la carte, and alternatives exist (bulma/buefy)
+
+Ordering:
+    .orderByKey/value/child
+    maintaining indices
+    Reversal unclear, I gather you push times also
+
+Ordering:
+    .orderByKey/value/child
+    maintaining indices
+    Reversal unclear, I gather you push times also

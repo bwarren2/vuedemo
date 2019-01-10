@@ -111,6 +111,26 @@ Each of these can be a `ref`:
 
 ---
 
+## AWS Alternatives
+
+AppSync is the only AWS option I am aware of.  It's super new (last April) and much heavier.
+
+Uses Graphql, so you need Apollo.  Auth apparently uses AWS Cognito Pools?  (It's not nearly as easy and obvious.)
+
+---
+
+## Additional topics
+
+* Cloud functions (like lambdas.  Can be kicked off when child changed/added/etc)
+* ML integration (google has open models for images, language, and translation via OpenML)
+* Firestore (No limits!)
+
+---
+
+Backup
+
+---
+
 ## Pop quiz: what will the db look like after these actions?
 
 ```vue
