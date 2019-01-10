@@ -55,7 +55,6 @@
 <script>
 
   import {db} from '../firebase.js'
-  let topicsRef = db.ref('topics')
   export default {
     data () {
       return {
@@ -70,7 +69,7 @@
     },
     firebase: {
       topics:{
-        source: topicsRef,
+        source: db.ref('topics').orderByKey().limitToLast(3),
         cancelCallback (err) {
           console.error(err)
         }
