@@ -111,6 +111,36 @@ Each of these can be a `ref`:
 
 ---
 
+## Security rules (briefly)
+
+Security rules cascade.  The have access to some variables and operators, like the user, but not a ton.
+
+---?image=img/rules.png&size=auto 70%
+
+---
+
+## Auth
+
+Google has a bunch of off-the-rack solutions, like so:
+```
+firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // ...
+});
+```
+
+They also handle forgotten password flows etc.
+
+---
+
+## Auth 2
+
+(There is also a prebuild solution called FirebaseUI, but I have not played with it yet.)
+
+---
+
 ## AWS Alternatives
 
 AppSync is the only AWS option I am aware of.  It's super new (last April) and much heavier.
