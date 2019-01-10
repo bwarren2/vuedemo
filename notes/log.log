@@ -1,0 +1,257 @@
+commit 1e502f72f5cf14c8b886ae9c4f5ba3e16093818e
+Author: Warren <bwarren@eab.com>
+Date:   Thu Jan 10 10:56:54 2019 -0500
+
+    Typo
+
+commit 8eae9092be64a7d0f2363f92f234cddb107546c4
+Author: Warren <bwarren@eab.com>
+Date:   Thu Jan 10 10:49:44 2019 -0500
+
+    Use home component
+
+commit f1d19342988010b5482f14a03b7516b8d38c12b2
+Author: Warren <bwarren@eab.com>
+Date:   Thu Jan 10 10:40:19 2019 -0500
+
+    Firebase hosting
+
+commit ef3c1671aadd0a836188057734e0d93dbabd437d
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 15:25:47 2019 -0500
+
+    Firebase init
+
+commit bfb58e535029fd89bde6320b7e3a89f540995686
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 15:22:01 2019 -0500
+
+    Add comment
+
+commit 38c237c043f2648c773378f6a5c7d02e6dedf949
+Merge: 3d788ea b6a2d95
+Author: Ben Warren <bwarren@eab.com>
+Date:   Wed Jan 9 15:21:13 2019 -0500
+
+    Merge pull request #5 from bwarren2/router
+    
+    Router
+
+commit b6a2d9506f02f1f2b4aaae0f257ab11dc5b89b02
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 15:20:50 2019 -0500
+
+    Add nav
+
+commit 9d89c72cc3eff996594e34b6df209b2fe27d720e
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 15:10:08 2019 -0500
+
+    Add the router
+
+commit 3d788eadec9633227ffb7a5481cbfd0a7f22835b
+Merge: be0d2dc 45b32b6
+Author: Ben Warren <bwarren@eab.com>
+Date:   Wed Jan 9 13:12:46 2019 -0500
+
+    Merge pull request #4 from bwarren2/vuetify
+    
+    Vuetify topics
+
+commit 45b32b667beda9dd93c8c1e2bdb9f16c02e824bb
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 13:10:02 2019 -0500
+
+    Vuetify topics
+
+commit be0d2dccb12ea3cbf8b3be503a1e9553aaa16da7
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:43:43 2019 -0500
+
+    Change image
+
+commit 911fb65bfa1354e2eee9e5483c090f647940271c
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:42:40 2019 -0500
+
+    Add answer
+
+commit 9928cb8d8cdf9a8fd722e00aea1ef3ab2cc3c5f7
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:40:51 2019 -0500
+
+    Add text
+
+commit ff5c72fd434afbcad112ef991f73ea1e54652f6f
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:36:53 2019 -0500
+
+    Add strikethrough
+
+commit 0a1426ed78f048be3f94df63b955e9e26d5d71bb
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:35:42 2019 -0500
+
+    Add to slides
+
+commit a1f1b317de68aeb3ca1ac66a42997c5120b12531
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:34:20 2019 -0500
+
+    Add data
+
+commit 69cb23757d3745b22e2c9fa7653847bafda8aae4
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 11:32:55 2019 -0500
+
+    Add text
+
+commit c24357723018be8caf6b06277e1a2df2be12a404
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 10:52:38 2019 -0500
+
+    Add text
+
+commit 252a68ec7227c8325e5e1909a25a2623bb915596
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 10:40:56 2019 -0500
+
+    Add image
+
+commit f37479e50154c959402b7ff343db58eff9205396
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 10:36:10 2019 -0500
+
+    Change line numbers
+
+commit c86b7f81c1a0793565df3b2486ad7d5fa9ab3584
+Author: Warren <bwarren@eab.com>
+Date:   Wed Jan 9 10:34:36 2019 -0500
+
+    Add text
+
+commit 4f4e416df5eb55a1b23f1903f74efb1c726f5d2a
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 20:04:35 2019 -0500
+
+    Add images
+
+commit a051af6c6bc744649021498da4f2a41a8c2bf34e
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 20:02:05 2019 -0500
+
+    Add image
+
+commit c198e4d43c7a4036951f1f7603d8421828b23eeb
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:59:58 2019 -0500
+
+    Resize
+
+commit 0fa4b61a701d5740157c7ba090d03649f724f889
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:59:25 2019 -0500
+
+    Move image
+
+commit 080864caa55f1b51b4fda5821771a1fb0c9ceed3
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:58:53 2019 -0500
+
+    Write image differently
+
+commit 7290a86b3ea6d3d490511e495b24299e724134df
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:55:23 2019 -0500
+
+    Resize
+
+commit fd1302abec972a071d4e0ed648c759216ecfe04f
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:53:12 2019 -0500
+
+    Resize
+
+commit 4a7ef250324be248cceab26afb2d810f13965ec0
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:52:28 2019 -0500
+
+    Add to pitch
+
+commit 3d67d8e7ff6a461016e4ef6611c4ced64680ed64
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:38:03 2019 -0500
+
+    Add to deck
+
+commit 750e3d39fdf1e0f52b76a07691bec178e34cac0d
+Merge: d6d5666 446a68d
+Author: Ben Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:01:59 2019 -0500
+
+    Merge pull request #3 from bwarren2/use-vuefire
+    
+    Use vuefire
+
+commit 446a68d31e25ff8e43d75ee496121f13a8985360
+Author: Warren <bwarren@eab.com>
+Date:   Tue Jan 8 19:01:33 2019 -0500
+
+    Add todo
+
+commit f347e068326aea1258d822d1fb2bfc37cd4e0868
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 22:48:18 2019 -0500
+
+    Use Vuefire
+
+commit d6d5666ef6b71061e04dde29fe25040f23c4915f
+Merge: bdadb13 1722010
+Author: Ben Warren <bwarren@eab.com>
+Date:   Sun Jan 6 18:03:46 2019 -0500
+
+    Merge pull request #2 from bwarren2/feature/crud-firebase
+    
+    Feature/crud firebase
+
+commit 17220103dd2d3df45503d44886f0327c232e044c
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 18:03:23 2019 -0500
+
+    Update readme
+
+commit 59383bc3070329e8225c8ef4982800151a0ca743
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 18:01:54 2019 -0500
+
+    CRUD wired up
+
+commit 472364a489ab0a6b576ed3a735b77bcd84eafa5e
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 16:32:29 2019 -0500
+
+    Can write and delete
+
+commit bdadb13a69c77e96f237cee19f3c70bc96dbf9a3
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 16:16:13 2019 -0500
+
+    Topics get created locally
+
+commit 2af0876d56fdc3c601f3b1d490b4374bbfc293eb
+Author: Ben Warren <bwarren@eab.com>
+Date:   Sun Jan 6 11:47:08 2019 -0500
+
+    Add firebase (#1)
+    
+    * Connected to Firebase
+    
+    * Change readme
+    
+    * Fix vuln
+
+commit 628c8e6df0db2e328e092518f81a1fe2a1c73b4c
+Author: Warren <bwarren@eab.com>
+Date:   Sun Jan 6 11:10:11 2019 -0500
+
+    First commit
