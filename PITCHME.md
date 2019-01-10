@@ -115,7 +115,7 @@ Each of these can be a `ref`:
 
 Security rules cascade.  The have access to some variables and operators, like the user, but not a ton.
 
----?image=img/rules.png&size=auto 70%
+---?image=img/securityrules.png&size=auto 70%
 
 ---
 
