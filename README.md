@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-See docs/notes for talk notes.  Slides are [here](https://gitpitch.com/bwarren2/vuedemo).
+See notes/notes for talk notes.  Slides are [here](https://gitpitch.com/bwarren2/vuedemo).
