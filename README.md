@@ -15,6 +15,4 @@ npm run dev
 npm run build
 ```
 
-## What we have done
-
-We can create/read/update/delete topics from firebase.
+See docs/notes for talk notes.  Slides are [here](https://gitpitch.com/bwarren2/vuedemo).
