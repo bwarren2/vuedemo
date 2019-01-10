@@ -8,7 +8,7 @@
               Firebase Demo
             </v-list-tile-title>
           </v-list-tile>
-          <v-list-tile to='empty'>Nothing</v-list-tile>
+          <v-list-tile to='/'>Home</v-list-tile>
           <v-list-tile to='topics'>Topics</v-list-tile>
         </v-list>
       </v-toolbar>

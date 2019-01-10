@@ -69,7 +69,7 @@
     },
     firebase: {
       topics:{
-        source: db.ref('topics').orderByKey().limitToLast(3),
+        source: db.ref('topics').orderByKey().limitToLast(10),
         cancelCallback (err) {
           console.error(err)
         }

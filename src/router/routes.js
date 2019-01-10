@@ -1,8 +1,8 @@
 import TopicList from '../components/TopicList'
-import Empty from '../components/Empty'
+import Home from '../components/Home'
 
 export default [
-  { path: '/', component: Empty },
+  { path: '/', component: Home },
   {
     path: '/topics',
     name: 'TopicList',
