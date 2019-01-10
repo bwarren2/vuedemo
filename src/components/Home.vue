@@ -4,7 +4,7 @@
       <v-container fill-height>
         <v-layout align-center>
           <v-flex>
-            <h3 class="display-3">Let's run an experiment</h3>
+            <h3 class="display-3">Let's NOT run an experiment</h3>
 
             <span class="subheading">What will happen when a bunch of devs have a real-time topic stream?  Will people be civil, or will they flagrantly edit eachother's thoughts?</span>
 
